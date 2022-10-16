@@ -67,6 +67,7 @@ namespace lab_2___calculator_acasa
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(191, 20);
             this.textBox1.TabIndex = 1;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // button1
             // 
@@ -76,6 +77,7 @@ namespace lab_2___calculator_acasa
             this.button1.TabIndex = 2;
             this.button1.Text = "1";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -85,6 +87,7 @@ namespace lab_2___calculator_acasa
             this.button2.TabIndex = 3;
             this.button2.Text = "2";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -94,6 +97,7 @@ namespace lab_2___calculator_acasa
             this.button3.TabIndex = 4;
             this.button3.Text = "3";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -103,6 +107,7 @@ namespace lab_2___calculator_acasa
             this.button4.TabIndex = 5;
             this.button4.Text = "4";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
@@ -112,6 +117,7 @@ namespace lab_2___calculator_acasa
             this.button5.TabIndex = 6;
             this.button5.Text = "+";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 
@@ -121,6 +127,7 @@ namespace lab_2___calculator_acasa
             this.button6.TabIndex = 7;
             this.button6.Text = "5";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button7
             // 
@@ -130,6 +137,7 @@ namespace lab_2___calculator_acasa
             this.button7.TabIndex = 8;
             this.button7.Text = "6";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button8
             // 
@@ -139,6 +147,7 @@ namespace lab_2___calculator_acasa
             this.button8.TabIndex = 9;
             this.button8.Text = "7";
             this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button9
             // 
@@ -148,6 +157,7 @@ namespace lab_2___calculator_acasa
             this.button9.TabIndex = 10;
             this.button9.Text = "-";
             this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // button10
             // 
@@ -157,6 +167,7 @@ namespace lab_2___calculator_acasa
             this.button10.TabIndex = 11;
             this.button10.Text = "8";
             this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // button11
             // 
@@ -166,6 +177,7 @@ namespace lab_2___calculator_acasa
             this.button11.TabIndex = 12;
             this.button11.Text = "9";
             this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // button12
             // 
@@ -175,6 +187,7 @@ namespace lab_2___calculator_acasa
             this.button12.TabIndex = 13;
             this.button12.Text = "*";
             this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
             // button14
             // 
@@ -184,6 +197,7 @@ namespace lab_2___calculator_acasa
             this.button14.TabIndex = 15;
             this.button14.Text = "0";
             this.button14.UseVisualStyleBackColor = true;
+            this.button14.Click += new System.EventHandler(this.button14_Click);
             // 
             // button15
             // 
@@ -193,6 +207,7 @@ namespace lab_2___calculator_acasa
             this.button15.TabIndex = 16;
             this.button15.Text = "=";
             this.button15.UseVisualStyleBackColor = true;
+            this.button15.Click += new System.EventHandler(this.button15_Click);
             // 
             // button16
             // 
@@ -202,6 +217,7 @@ namespace lab_2___calculator_acasa
             this.button16.TabIndex = 17;
             this.button16.Text = "/";
             this.button16.UseVisualStyleBackColor = true;
+            this.button16.Click += new System.EventHandler(this.button16_Click);
             // 
             // button13
             // 
@@ -211,6 +227,7 @@ namespace lab_2___calculator_acasa
             this.button13.TabIndex = 18;
             this.button13.Text = "Clear";
             this.button13.UseVisualStyleBackColor = true;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
             // button17
             // 
@@ -220,13 +237,14 @@ namespace lab_2___calculator_acasa
             this.button17.TabIndex = 19;
             this.button17.Text = ".";
             this.button17.UseVisualStyleBackColor = true;
+            this.button17.Click += new System.EventHandler(this.button17_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(782, 474);
             this.Controls.Add(this.button17);
             this.Controls.Add(this.button13);
             this.Controls.Add(this.button16);
